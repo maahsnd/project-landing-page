@@ -8,6 +8,9 @@ ul {
 ul {
     font-size: 18px;
     color: #E5E7EB;
+    margin-left: 90px;
+    padding: 0px;
+    margin-right: 100px;
 }
 
 li {
@@ -17,6 +20,9 @@ li {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', Arial;
+    margin: 0px;
+    color: #F9FAF8;
 }
 
 .top {
@@ -28,11 +34,31 @@ body {
 #logo {
     margin-right: auto;
     font-size: 24px;
-    color: #f9fAf8;
 }
 
 h1 {
     font-size: 48px;
-    color: #F9FAF8;
 }
 
+.welcome-content {
+    display:flex;
+    padding: 80px;
+}
+
+img {
+    max-width: 300px;
+    margin-right: 108px;
+    margin-left: auto;
+}
+
+.welcome-text {
+    width: 600px;
+    margin-left: 100px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 24px 8px 24px;
+    border-radius: 15px;
+}
