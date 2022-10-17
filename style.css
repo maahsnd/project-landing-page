@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.header,
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    padding: 8px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+#logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9fAf8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
