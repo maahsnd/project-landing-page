@@ -62,3 +62,22 @@ button {
     padding: 8px 24px 8px 24px;
     border-radius: 15px;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
