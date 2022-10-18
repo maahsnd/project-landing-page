@@ -1,7 +1,19 @@
+.top {
+    flex-direction: row;
+    justify-content: space-around;
+}
 ul {
     list-style: none;
+
+}
+
+.call, .container, .footer, .action-container, .quote, .quotecontainer, .captions,
+.gallery, .random-info, .welcome-content, body, ul {
     display: flex;
-    margin-right: 30px;
+}
+
+body, .top, .random-info, .quotecontainer, .call {
+    flex-direction: column;
 }
 
 .header,
@@ -18,8 +30,6 @@ li {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: 'Roboto', Arial;
     margin: 0px;
     color: #F9FAF8;
@@ -27,7 +37,6 @@ body {
 
 .top {
     display: flex;
-    flex-direction: column;
     background-color: #1F2937;
 }
 
@@ -42,10 +51,9 @@ h1 {
 }
 
 .welcome-content {
-    display:flex;
     padding: 80px;
+    justify-content: space-around;
 }
-
 img {
     max-width: 300px;
     margin-right: 108px;
@@ -66,8 +74,6 @@ button {
 }
 
 .random-info {
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     background-color: white;
     align-items: center;
@@ -80,7 +86,6 @@ h2 {
 }
 
 .gallery {
-    display: flex;
     justify-content: space-around;
 }
 
@@ -94,7 +99,6 @@ h2 {
   }
 
 .captions {
-    display: flex;
     margin-bottom: 70px;
 }
 
@@ -108,11 +112,9 @@ h2 {
 
 .quotecontainer {
     background-color: #E5E7EB;
-    display: flex;
     color: #1F2937;
     font-weight: lighter;
     font-size: 36px;
-    flex-direction: column;
     align-self: stretch;
     margin-top: 20px;
     align-items: center;
@@ -121,7 +123,6 @@ h2 {
 .quote {
     width: 700px;
     padding: 20px 800px 20px 800px;
-    display: flex;
     flex-flow: column wrap;
 }
 
@@ -132,7 +133,6 @@ h2 {
 }
 
 .action-container {
-    display: flex;
     background-color:#3882F6;
     margin: 50px 0px 50px 0px; 
     padding: 40px;
@@ -143,13 +143,10 @@ h2 {
 }
 
 .call {
-    display: flex;
-    flex-direction: column;
     margin-left: 80px;
 }
 
 .container {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -166,7 +163,7 @@ h2 {
 
 .footer {
     background-color:#1F2937;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
+
