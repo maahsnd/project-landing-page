@@ -116,6 +116,41 @@ h2 {
 }
 
 .quote {
-    width: 700px;
-    padding: 0px 600px 0px 600px;
+    width: 600px;
+    padding: 20px 800px 20px 800px;
+}
+
+.action-container {
+    display: flex;
+    background-color:#3882F6;
+    margin: 30px 0px 30px 0px; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container > button {
+    border: 1px solid white;
+    margin-right: 80px;
+}
+
+.call > h3,
+.call > p {
+    margin: 0px;
 }
